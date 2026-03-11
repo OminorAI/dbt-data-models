@@ -1,6 +1,6 @@
 {{ config(
-    materialized='view'
-    -- TODO: Add a schema name
+    materialized='view',
+    schema='tfn_ops_dashboards' 
 ) }}
 
 SELECT

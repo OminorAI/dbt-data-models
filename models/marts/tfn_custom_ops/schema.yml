@@ -59,3 +59,29 @@ models:
 
       - name: ValidDateEnd
         description: Valid date end for the order
+
+  - name: tfn_active_virtual_cards
+    description: >
+      Active virtual cards from 2025 onwards. View that combines driver and card linked codes.
+
+    columns:
+      - name: DriverID
+        description: Driver identifier
+
+      - name: ExpiryDate
+        description: Expiry date for the card
+
+      - name: VehicleID
+        description: Vehicle identifier
+
+      - name: CardID
+        description: Card identifier
+
+      - name: CustomerID
+        description: Customer identifier
+
+      - name: CurrentVirtualCardNumber
+        description: Current virtual card number
+
+      - name: LinkType
+        description: Link type (Driver or Card_Vehicle)

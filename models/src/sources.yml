@@ -36,6 +36,7 @@ sources:
     tables:
       - name: tfn_live_vehicles
       - name: tfn_demo_customer
+      - name: customer_authorisation_code
       - name: tfn_funder
       - name: tfn_product
       - name: tfn_product_category
